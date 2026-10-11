@@ -1,0 +1,14 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Tooling (CI checks, optional build step)
+node_modules/
+.lighthouseci/
+dist/
+_site/
+.env
+.env.*
