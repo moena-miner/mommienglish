@@ -5,7 +5,7 @@
 
 // ▼ リンク先の設定：URLが決まったらここに入れるだけで、お問い合わせボタンに反映されます
 const LINKS = {
-  form: '', // GoogleフォームのURL 例: 'https://forms.gle/xxxxxxx'
+  form: 'https://forms.gle/snENVeQnyHEtYXBm7', 
 };
 // ▲ ここまで
 
