@@ -15,6 +15,12 @@ Static site (HTML/CSS/JS, no build step). Open `index.html` in a browser to view
 4. **Domain** — once decided, add the `canonical` and `og:image` tags (see the comment in each page's `<head>`).
 5. **After 2027-01-31** — delete the campaign block in `smilingual.html` (marked `キャンペーン枠`).
 
+## Portfolio (`portfolio/`)
+Moena's designer portfolio, published at `mommienglish.com/portfolio/`. It has its own design and files: `portfolio/index.html`, `portfolio/styles.css` (colors at the top in `:root`), `portfolio/main.js`, `portfolio/img/`. Linked from the footer of the 6 main pages.
+- **Contact button** — paste the Google Form URL into `LINKS` at the top of `portfolio/main.js`. Until then it shows "準備中".
+- **Adding a work** — copy one `<li class="work">` block in the right group and change the text and images (instructions are in the HTML comment above 制作実績). The zoom popup, zoom icon and category counts are generated automatically.
+- **Images** — save as `.webp` in `portfolio/img/`, ideally in two sizes (e.g. 400px and 620px wide) for `srcset`.
+
 ## Shared parts
 The header, side panels, contact block and footer are repeated in each of the 6 pages. When changing the menu or footer, update all 6 files.
 
